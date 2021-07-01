@@ -1,0 +1,281 @@
+
+
+
+
+
+body {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    
+
+}
+
+.banner {
+    height: 150px;
+    width: auto;
+}
+
+#compress-btn {
+    border: 1px solid #fc5200;
+    color: #fc5200;
+    border-radius: 4px;
+    background-color: white;
+    margin-left: 350px;
+    padding: 5px;
+
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    text-decoration: underline;
+    color: slateblue;
+}
+
+
+
+.time {
+    padding-top: 5px;
+    font-weight: 300;
+    color: #555
+}
+
+
+.multisport-icon-wrapper {
+    height: 70px;
+    width: 70px;
+    margin: -20px 0;
+    
+}
+
+.multisport-icon {
+    width: 70px;
+    height: auto;
+    
+}
+
+.ride-icon {
+    width: 28px;
+    height: auto;
+}
+
+.ride-icon-wrapper  {
+    height: 30px;
+    width: 30px;
+    margin: 12px 20px;
+    
+}
+
+.run-icon {
+    width: 24px;
+    height: auto;
+}
+
+.run-icon-wrapper {
+    height: 30px;
+    width: 30px;
+    margin: 12px 25px;
+    
+}
+
+
+.entry-title {
+    margin: 20px 0;
+}
+
+
+.feed-entry {
+    font-size: 13px;
+    padding: 0 30px;
+    margin: 40px 0;
+    position: relative;
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.entry-head {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7px;
+    
+}
+
+.avatar-athlete {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+div li {
+    margin: 0;
+    padding: 0;
+
+}
+
+div {
+    display: block;
+}
+
+.feed-entry.avatar {
+    float: left;
+    margin-left: 108px;
+    margin-top: 0px;
+}
+
+.avatar-img {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.avatar {
+    display: inline-block;
+    position: relative;
+}
+
+.app-icon-wrapper {
+    height: 24px;
+    width: 24px;
+}
+
+.subscriber-icon {
+    height: 12px;
+    width: 12px;
+    position: relative;
+    vertical-align: initial;
+    display: inline-block;
+
+}
+
+time, .timestamp {
+    margin: 0;
+    white-space: nowrap;
+    font-size: 12px;
+    line-height: 16px;
+
+}
+
+.feed-entry .entry-title {
+    color: #000;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.43em;
+    margin-bottom: 5px;
+    word-wrap: break-word;
+    
+}
+
+#entry-title {
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: .4px;
+}
+
+#mshead {
+    font-size: 12px;
+}
+
+ul  {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    
+    
+}
+
+.inline-stats {
+    margin-right: 140px;
+}
+
+.featured-achievements{
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.btn-group {
+    position: relative;
+    display: flex;
+    vertical-align: middle;
+    
+}
+
+.btn {
+    width: 50px;
+    display: flex;
+    height: 24px;
+    background-color: white;
+    border: 0.3px solid lightgray;
+    font-size: 11px;
+}
+
+.kudos-icon img {
+    height: 13px;
+    width: 13px;
+    color: lightgray;
+    padding-top: 2px;
+    padding-left: 3px;
+    margin-right: -2px;
+}
+
+.kudos-count {
+    padding: 3px;
+}
+
+.comment-icon img {
+    height: 13px;
+    width: 13px;
+    padding-top: 2px;
+    margin-left: 4px;
+
+}
+
+.add-comment {
+    border-left: none;
+}
+
+.comment-count {
+    padding-bottom: 3px;
+    padding-top: 2px;
+
+    font-size: 12px;
+}
+
+.activity-photo {
+   width: 75px;
+   height: auto;
+   padding-bottom: 10px;
+   margin-top: -10px;
+}
+
+.multisport-display.open {
+    display: none;
+}
+
+.individual-display {
+    display: none;
+}
+
+.individual-display.open {
+    display: contents;
+}
+
+.activity-map {
+    margin-left: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+#runmap {
+    margin-left: 90px;
+    width: 200px;
+    height: auto;
+}
